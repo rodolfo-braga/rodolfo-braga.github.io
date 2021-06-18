@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Rodolfo Braga</title>
+    <style>
+        body {
+            background-color: #98C1D9;
+        }
+        .name {
+            font-family: Helvetica, sans-serif;
+            padding: 15px 30px;
+            background-color: #293241;
+            color: #E0FBFC;
+        }
+        .photo {
+            background-color: #EE6C4D;
+            border-style: inset;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .subheading {
+            color: #3D5A80;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <h1>Rodolfo Braga</h1>
-        <a href="#sobremim">Sobre mim</a>
+    <h1 class="name">Rodolfo Braga</h1>
+        <img class="photo" src="Foto_perfil.jpeg" alt="Foto do dono da página" width="300px" id="#foto">
+        <p><a href="#sobremim">Sobre mim</a></p>
+        <p><a href="#habilidades">Minhas habilidades</a></p>
+        <p><a href="#recomendacoes">Minhas recomendações</a></p>
         <br>
-        <a href="#habilidades">Minhas habilidades</a>
-        <br>
-        <a href="#recomendacoes">Minhas recomendações</a>
-        <br>
-        <br>
-        <img src="Foto_perfil.jpeg" alt="Foto do dono da página" width="300px">
-        <br>
-        <br>
-    <h2 id="sobremim">Sobre mim</h2>
-        <ul>
+    <h2 class="subheading" id="sobremim">Sobre mim</h2>
+        <ul class="list">
             <li>Brasileiro</li>
             <li>Mogi das Cruzes-SP</li>
             <li>Nessa jornada desde o século passado!</li>
             <li>Estudante de Desenvolvimento Web na <a href="https://www.betrybe.com">Trybe</a></li>
         </ul>
-    <h2 id="habilidades">Minhas habilidades</h2>
-        <ul>
+    <h2 class="subheading" id="habilidades">Minhas habilidades</h2>
+        <ul class="list">
             <li>Bash</li>
             <li>Git & GitHub</li>
             <li>HTML</li>
@@ -32,12 +48,14 @@
             <li>Javascript</li>
             <li>Inglês</li>
         </ul>
-    <h2 id="recomendacoes">Minhas recomendações</h2>
+    <h2 class="subheading" id="recomendacoes">Minhas recomendações</h2>
         <ul>
-            <li>Brasileiro</li>
-            <li>Mogi das Cruzes-SP</li>
-            <li>Nessa jornada desde o século passado!</li>
-            <li>Estudante de Desenvolvimento Web na <a href="https://www.betrybe.com">Trybe</a></li>
+            <li>Para ler: <a href="">Blog</a></li>
+            <li>Para assistir: <a href="">Canal</a></li>
+            <li>Para ouvir: <a href="">Podcast</a></li>
         </ul>
+        <br>
+        <br>
+    <a href="foto">Clique aqui para voltar ao topo</a>
 </body>
 </html>
