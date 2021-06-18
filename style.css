@@ -1,0 +1,19 @@
+body {
+    background-color: #98C1D9;
+}
+.name {
+    font-family: Helvetica, sans-serif;
+    padding: 15px 30px;
+    background-color: #293241;
+    color: #E0FBFC;
+}
+.photo {
+    background-color: #EE6C4D;
+    border-style: inset;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.subheading {
+    color: #3D5A80;
+    font-family: 'Trebuchet MS', sans-serif;
+}
